@@ -9,7 +9,7 @@
     "dev": "nodemon app",
     "start": "node app.js"
   },
-  "author": "Aleks Kazantsev <9224762646@.mail.ru>",
+  "author": "Aleks Kazantsev <9224762646@mail.ru>",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.0.1",
