@@ -1,0 +1,31 @@
+<body class="container chat">
+    <header class="d-flex align-items-center">
+        <svg class="bi" width="72" height="72" fill="currentColor" role="img" >
+            <use xlink:href="./svg/bootstrap-icons.svg#chat-left-text"/>
+        </svg>
+        <h1>Чат</h1>
+        <button id="btnExit" class="btn btn-primary">
+            <svg class="bi" width="32" height="32" fill="currentColor" role="img" >
+                <use xlink:href="./svg/bootstrap-icons.svg#box-arrow-left"/>
+            </svg>
+            Выход
+        </button>
+    </header>
+    <main>
+        <ul id="messages" class="list-group">
+        </ul>
+        <form id="socket" class="form-message d-flex align-items-center">
+            <div class="input-group">
+            <input id="inputAutoDisabled" type="text" class="form-control" name="message" placeholder="Введите сообщение ...">
+            <button id="btnAutoDisabled" type="submit" class="btn btn-primary" disabled>
+                Отправить
+                <svg class="bi" width="32" height="32" fill="currentColor" role="img" >
+                    <use xlink:href="./svg/bootstrap-icons.svg#forward"/>
+                </svg>
+            </button>
+            </div>
+        </form>
+    </main>
+    <script src="./js/socket.io.js"></script>
+    <script src="./js/socket.js"></script>
+</body>

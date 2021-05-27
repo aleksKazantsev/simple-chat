@@ -1,0 +1,41 @@
+.container {
+    height: 100vh;
+}
+.form-login {
+    min-width: 560px;
+    height: min-content; 
+}
+
+.form-control-lg, .btn-lg {
+    margin-left: 5px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+
+.chat header {
+    height: 100px;
+    position: relative;
+}
+
+.chat header h1{
+    display: inline-block;;
+}
+
+.chat header button {
+    position: absolute;
+    right: 0;
+}
+
+.chat main form {
+    height: 100px;
+}
+
+.chat main ul {
+    height: calc(100vh - 200px);
+    overflow: auto;
+}
+
+.chat main ul li:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
